@@ -191,7 +191,7 @@ var getFireballSpeed = function(left) {
   return left ? 5 : 2;
   }
 
-var getWizardHeight = function(wizardHeight) {
+var getWizardHeight = function() {
   wizardHeight = MULTIPLIER_MAGE_HEIGHT * wizardWidth;
   return wizardHeight;
 }
@@ -201,7 +201,7 @@ var getWizardX = function(width) {
 }
 
 var getWizardY = function(height) {
-  return 2 / 3;
+  return 2 / 3 * height;
 }
 </script>
 <script src="js/game.js"></script>
